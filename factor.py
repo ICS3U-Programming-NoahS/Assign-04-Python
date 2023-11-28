@@ -32,7 +32,7 @@ def main():
             factor = user_num_int % counter
             if factor == 0:
                 print("{} is a factor of {}.".format(counter, user_num_int))
-            elif (user_num_int < counter):
+            elif user_num_int < counter:
                 break
     except:
         # If the user did not enter an integer
